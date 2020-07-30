@@ -1,0 +1,6 @@
+piexif
+pillow
+pyqt5
+sklearn
+click
+dlib
