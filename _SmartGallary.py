@@ -2,7 +2,7 @@ import glob
 import os
 from functools import partial
 from PyQt5 import QtCore, QtGui, QtWidgets, QtPrintSupport
-from faceD import RecogFaces
+# from faceD import RecogFaces
 from _design import Ui_MainWindow, PhotoViewer
 from _metadata import ImageMetaData
 
@@ -18,7 +18,7 @@ class Gallary(QtWidgets.QMainWindow):
         self.windowNew.setupUi(MainWindow, self.viewer)
         # MainWindow.setStyleSheet("background-color : rgba(30, 30, 30, 255); color: white;")
 
-        self.facerec = RecogFaces()
+        # self.facerec = RecogFaces()
 
         self.classifier = None
         self.predictions = None
