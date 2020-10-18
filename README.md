@@ -8,7 +8,9 @@ Run app by:
 ToDo:
 
 Desktop Application: Done
+
 Adding Face Recog Feature: Reamaining
+
 Using Face Recog Data to cluster faces: Remaining
 
 Open to Contributions
